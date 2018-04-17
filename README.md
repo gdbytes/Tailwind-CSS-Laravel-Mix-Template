@@ -2,6 +2,8 @@
 
 This repo provides a perfect starting point for quickly getting up and running with Laravel Mix, TailwindCSS, FontAwesome 5 (Pro) & jQuery.
 
+Comes complete with function to read from Laravel Mix manifest.json file to provide versioned assets.
+
 ## Usage
 
 First, install the dependencies and packages:
