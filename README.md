@@ -10,7 +10,7 @@ First, install the dependencies and packages:
 yarn
 ```
 
-Then, configure CSS within `tailwind.js` and FontAwesome libraries in `assets/js/bootstrap.js` (Pro licence required for pro libraries)
+Then, configure CSS within `tailwind.js` and FontAwesome libraries in `src/js/bootstrap.js` (Pro licence required for pro libraries)
 
 Finally, compile assets:
 
