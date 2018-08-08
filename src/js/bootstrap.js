@@ -6,14 +6,16 @@ window.$ = window.jQuery = require('jquery');
 /**
  * Load Font Awesome 5 (pro)
  */
-const FontAwesome = require('@fortawesome/fontawesome');
+import { library, dom } from '@fortawesome/fontawesome-svg-core'
 
-// In most cases one weight would suffice.
-const FaProLight = require('@fortawesome/fontawesome-pro-light')['default'];
-// const FaProRegular = require('@fortawesome/fontawesome-pro-regular')['default'];
-// const FaProSolid = requrie('@fortawesome/font-awesome-pro-solid')['default'];
+// In most cases one weight would be enough.
+import { fal } from '@fortawesome/pro-light-svg-icons';
+// import { far } from '@fortawesome/pro-regular-svg-icons';
+// import { fas } from '@fortawesome/pro-solid-svg-icons';
 
-const FaFreeBrands = require('@fortawesome/fontawesome-free-brands')['default'];
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 // Add chosen libraries.
-FontAwesome.library.add(FaFreeBrands, FaProLight);
+library.add(fab, fal);
+// Find <i> in dom.
+dom.watch();
