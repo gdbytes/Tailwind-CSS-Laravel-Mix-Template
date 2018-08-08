@@ -7,11 +7,11 @@
     "production": "node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome": "^1.1.5",
-    "@fortawesome/fontawesome-free-brands": "^5.0.10",
-    "@fortawesome/fontawesome-pro-light": "^5.0.10",
-    "@fortawesome/fontawesome-pro-regular": "^5.0.10",
-    "@fortawesome/fontawesome-pro-solid": "^5.0.10",
+    "@fortawesome/fontawesome-pro": "^5.2.0",
+    "@fortawesome/free-brands-svg-icons": "^5.0.10",
+    "@fortawesome/pro-light-svg-icons": "^5.0.10",
+    "@fortawesome/pro-regular-svg-icons": "^5.0.10",
+    "@fortawesome/pro-solid-svg-icons": "^5.0.10",
     "jquery": "^3.3.1",
     "laravel-mix": "^2.1.11",
     "laravel-mix-tailwind": "^0.1.0",
